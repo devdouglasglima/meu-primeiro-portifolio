@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfólio de Douglas L</title>
+		<link rel="stylesheet" href="stilo.css">
+		<script>
+			function mudaFoto(tipo){
+			if (tipo == 1) {
+			arquivo = "imagem1.jpg";
+			}
+			if (tipo == 2) {
+			arquivo = "imagem2.jpg";
+			}
+			if (tipo == 3) {
+			arquivo = "imagem3.jpg";
+			}
+			if (tipo == 4) {
+			arquivo = "imagem4.jpg";
+			}
+			document.getElementById("foto").src = arquivo;
+		}	
+
+			function copyEmail() {
+            const email = "contatodouglas2024@gmail.com";
+            const tempInput = document.createElement("input");
+            tempInput.value = email;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            alert("O email " + email + " foi copiado!");
+        }		
+		</script>
+	</head>
+	<body style="background: linear-gradient(to right, white 60%, #ee4242 40%);">
+	<!--fechamento head - cabeçalho-->
+	<div id="interface">
+<section id="ap">	
+	<header id="cabeçalho">
+	<hgroup>
+		<h2>Desenvolvedor Web Front-End </br> Web designer</h2>
+		<h1>Douglas</br>Lima</h1>
+	<p>Douglas Lima Web designer e Desenvolvedor front-End</br>com 1 ano de experiencia</p>
+	</hgroup>
+	
+	<nav id="menu">
+	<h1>Menu Principal</h1>
+	<ul>
+		<li onmouseover="mudaFoto(1)"><a href="pro.html" >projetos</a></li>
+		<li onmouseover="mudaFoto(2)"><a href="hab.html">certificados</a></li>
+		<li onmouseover="mudaFoto(3)"><a>habilidades</a></li>
+		<li onmouseover="mudaFoto(4)"><a>experiencias</a></li>
+	</ul>
+	</nav>
+	</header>
+		<img id="foto" src="imagem1.jpg"/>
+	</section>
+<aside id="contato">
+	<h1>Email:</h1>
+	<h2>contatodouglas2024@gmail.com</h2>
+	<h1>telefone:</h1>
+	<h2>31 98795-8612</h2>
+	<h1>social:</h1>
+	</nav id="social">
+	<class id="logo">
+		<ul>
+			<li> <a href="https://api.whatsapp.com/send?phone=5531987958612&text=Ol%C3%A1%20Douglas!%20Encontrei%20seu%20contato%20atrav%C3%A9s%20do%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20projetos." target="_blank"> <img src="social1.jpg"/> </a> </li>
+			<li> <a href="https://www.linkedin.com/in/douglas-lima-aa67b0243/" target="_blank"> <img src="social2.jpg"/> </a> </li>
+			<li> <a href="https://github.com/douglas20010425" target="_blank"> <img src="social3.jpg"/> </a> </li>
+			<li> <a onclick="copyEmail()"> <img src="social4.jpg"/> </a> </li>
+		</ul>
+	</class>
+	</nav>
+	</aside>
+	</div>
+	
+	
+
+	</body>
+
+
+
+</html>

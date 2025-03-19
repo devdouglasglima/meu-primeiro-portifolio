@@ -1,0 +1,145 @@
+@charset "UTF-8";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+</style>
+
+body {
+	background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #ee4242;
+	font-family:  "Rubik", sans-serif;
+	font-size: 13pt;
+}
+
+/*formataçao menu*/
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu {
+display: block;
+}
+
+nav#menu ul{
+	text-decoration: none;
+	font-family: "Rubik", sans-serif;
+	color: #ee4242;
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -5px;
+	left: 210px;
+}
+
+nav#menu li {
+	display: inline-block;
+	padding: 7px;
+}
+
+
+/* divisorias */
+section#ap {
+	display: block;
+	width: 700px;
+	float: left;
+	padding: 30px;
+	text-align: left;
+	font-family: "Arsenal SC", sans-serif;
+	
+}
+
+aside#contato {
+	float: right;
+	position: absolute;
+}
+
+	/* textos da esqueda*/
+
+header#cabeçalho h2 {
+	text-transform: uppercase;
+	font-family: "Rubik", sans-serif;
+	font-size: 10pt;
+	margin-bottom: 0px;
+	margin-top: 160px;
+	margin-left: 100px;
+	color: #ee4242	
+}
+header#cabeçalho h1 {
+	font-family: "Rubik", sans-serif;
+	font-size: 40pt;
+	margin-left: 100px;
+	margin-top: 0px;
+	line-height: 45px;
+	color: #ee4242
+}
+
+header#cabeçalho p {
+	font-family: "Rubik", sans-serif;
+	font-size: 8pt;
+	margin-left: 100px;
+	margin-top: -35px;
+	color: #ee4242
+}
+
+/* foto */
+
+img#foto{
+	position: absolute;
+	top: 145px;
+	width: 400px;
+	right: auto;
+	margin-left: 500px;
+	box-shadow: 3px 3px 6px rgba(0,0,0,.3);
+}
+
+
+/* textos da direita*/
+
+aside#contato {
+	margin-left: 900px;
+	margin-top: 380px;
+}	
+
+aside#contato h1{
+	color: white;
+	font-size: 12pt;
+	font-family:  "Rubik", sans-serif;
+	text-decoration: bold;
+	margin-bottom: 0px;
+	
+}
+
+aside#contato h2{
+	color: white;
+	font-size: 10pt;
+	font-family:  "Rubik", sans-serif;
+	margin: 0px
+}
+
+nav#social {
+	display: block;
+	
+}
+
+class#logo ul{
+		position: absolute;
+		float: right;
+		margin-top: 2px;
+		margin-left: -40px;
+}
+
+class#logo li{
+	text-decoration: none;
+	display: inline-block;
+}
+
+class#logo img {
+	width: 20px;
+	right: auto;
+}
